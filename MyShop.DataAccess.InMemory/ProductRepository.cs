@@ -49,7 +49,7 @@ namespace MyShop.DataAccess.InMemory
         {
             Product product = products.Find(p => p.Id == id);
 
-            if (productToUpate != null)
+            if (product != null)
             {
                 return product;
             }
