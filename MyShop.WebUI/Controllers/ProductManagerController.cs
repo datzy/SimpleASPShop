@@ -83,7 +83,7 @@ namespace MyShop.WebUI.Controllers
          }
 
     [HttpPost]
-    public ActionResult Edit(Product product, string Id, HttpPostedFile file)
+    public ActionResult Edit(Product product, string Id, HttpPostedFileBase file)
     {
             Product productToEdit = context.Find(Id);
 
